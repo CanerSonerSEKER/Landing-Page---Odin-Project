@@ -13,18 +13,19 @@ body {
 
 .navbar {
     background-color: #1F2937;
-    color: #fff;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .logo {
+    margin: 5px 0;
     font-size: 24px;
     color: #F9FAF8;
 }
 
 ul {
+    margin: 5px 0;
     font-size: 18px;
     color: #E5E7EB;
     list-style-type: none;
@@ -43,9 +44,49 @@ a:hover {
 }
 
 a:active {
-    color: red;
+    color: #2e5491;
 }
 
+/* HEADER CONTAİNER */
 
+.header-container {
+    background-color: #1F2937;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
+.text-container {
+    width: 600px;
+}
 
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.paragraf {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+img {
+    padding: 30px 0;
+}
+
+button {
+    width: 100px;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 10px;
+    font-weight: bolder;
+    background-color: #3882F6;
+    color: #fff;
+}
+
+button:active {
+    background-color: #03275f;
+}
