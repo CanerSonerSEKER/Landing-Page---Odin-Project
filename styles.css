@@ -54,12 +54,14 @@ a:active {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    gap: 50px;
 }
 
 .text-container {
     width: 600px;
+    margin-right: 74px;
 }
 
 .title {
@@ -90,3 +92,44 @@ button {
 button:active {
     background-color: #03275f;
 }
+
+
+/* Information-Container*/
+
+.information-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.information-container  img {
+    border: 3px solid blue;
+    border-radius: 15px;
+    padding: 0;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: 20px;
+}
+
+.image-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.img-text {
+    width: 250px;
+    height: 350px;
+    text-align: center;
+}
+
+
+
+
