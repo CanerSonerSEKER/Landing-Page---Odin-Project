@@ -130,6 +130,37 @@ button:active {
     text-align: center;
 }
 
+/* Quote-Container*/ /*Burada çok boş kodlama yaptım gibi hissediyorum*/
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+   width: 900px;
+   height: 400px;
+   display: flex;
+   flex-direction:column;
+   justify-content: center;
+   align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-man {
+    font-size: 22px;
+    align-self: flex-end;
+}
+
+/* Clicker-Container */ 
+
 
 
 
