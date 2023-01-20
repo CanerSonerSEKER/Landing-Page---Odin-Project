@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Roboto', 'Times New Roman' ,sans-serif;
-    line-height: 1.5;
+    line-height: 1.2;
 }
 
 /*NAVBAR*/
@@ -161,6 +161,41 @@ button:active {
 
 /* Clicker-Container */ 
 
+.clicker-container {
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clicker-container button {
+   width: 100px;
+   margin: 5px 0;
+   padding: 8px;
+   border: 1px solid #fff;
+   border-radius: 10px;
+   background-color: #3882F6;
+}
+
+.clicker-container button:active {
+    background-color: #2e5491;
+}
+
+.blue-container {
+    width: 1000px;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text {
+    color: #fff;
+}
 
 
+/* Footer */
 
